@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume - Thirada Treesuwannaphan</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: #ffffff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+
+        header h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            font-size: 0.92rem;
+            opacity: 0.95;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            padding: 35px 40px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h3.section-title {
+            font-size: 1.25rem;
+            color: #1e3a8a;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .profile-stmt {
+            background-color: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 16px 20px;
+            font-size: 1.02rem;
+            color: #334155;
+            border-radius: 0 8px 8px 0;
+            line-height: 1.7;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+            padding-left: 18px;
+            border-left: 2px solid #cbd5e1;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 4px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #3b82f6;
+        }
+
+        .role-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .company-name {
+            font-weight: 500;
+            color: #2563eb;
+        }
+
+        .date {
+            font-size: 0.88rem;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+
+        .timeline-item ul {
+            list-style: disc;
+            padding-left: 20px;
+            color: #475569;
+            font-size: 0.96rem;
+        }
+
+        .timeline-item ul li {
+            margin-bottom: 4px;
+        }
+
+        ul.tags {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        ul.tags li {
+            background: #eff6ff;
+            color: #1d4ed8;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.92rem;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            background-color: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.75rem;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- Header: Name & Contact Details -->
+        <header>
+            <h1>Thirada Treesuwannaphan</h1>
+            <h2>ฐิรดา ตรีสุวรรณพันธ์</h2>
+            <div class="contact-info">
+                <span>📍 Bangkok, Thailand</span>
+                <span>📧 thirada.tree@gmail.com</span>
+                <span>📞 +66 82 345 6789</span>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- 1. Profile Statement -->
+            <section>
+                <h3 class="section-title">📌 Profile Statement</h3>
+                <div class="profile-stmt">
+                    A proactive and highly motivated Business Administration student with a strong passion for digital communication, brand management, and project coordination. Demonstrates excellent interpersonal, critical thinking, and teamworking skills with a positive can-do attitude. Adaptable and eager to leverage AI tools and business English fluency to drive impactful results in global working environments.
+                </div>
+            </section>
+
+            <!-- 2. Work & Activity Experience -->
+            <section>
+                <h3 class="section-title">💼 Work & Activity Experience</h3>
+                
+                <div class="timeline-item">
+                    <div class="role-title">Digital Marketing & Content Intern</div>
+                    <div class="company-name">Nexus Digital Media Co., Ltd.</div>
+                    <div class="date">June 2025 – August 2025</div>
+                    <ul>
+                        <li>Assisted in planning and creating social media content campaigns across Instagram, Facebook, and TikTok.</li>
+                        <li>Utilized analytics tools to evaluate audience engagement and presented weekly summary reports to the team.</li>
+                        <li>Collaborated with cross-functional teams to organize promotional events and product launches.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="role-title">Student Event Coordinator</div>
+                    <div class="company-name">Faculty Student Union Committee</div>
+                    <div class="date">September 2024 – Present</div>
+                    <ul>
+                        <li>Coordinated campus-wide student orientation programs and academic career fairs for over 500 attendees.</li>
+                        <li>Managed team communication, schedule tracking, and vendor outreach with high dependability.</li>
+                        <li>Resolved unexpected operational issues efficiently during live university events.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 3. Education -->
+            <section>
+                <h3 class="section-title">🎓 Education</h3>
+                <div class="timeline-item">
+                    <div class="role-title">Bachelor of Business Administration (BBA)</div>
+                    <div class="company-name">Major in Business Communication & Marketing</div>
+                    <div class="date">2023 – Present | Cumulative GPA: 3.65</div>
+                    <ul>
+                        <li>Relevant Coursework: Business Communication, Consumer Behavior, Brand Strategy, Cross-Cultural Management, Digital Marketing Analytics.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 4. Interests & Hobbies -->
+            <section>
+                <h3 class="section-title">🌟 Interests & Hobbies</h3>
+                <ul class="tags">
+                    <li>💻 Web Design & AI Prompt Engineering</li>
+                    <li>🗣️ Business English & Language Learning</li>
+                    <li>📸 Digital Photography & Visual Storytelling</li>
+                    <li>✈️ Cultural Travel & Exploring New Places</li>
+                    <li>🎧 Business Podcasts & Tech News</li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>© Thirada Treesuwannaphan — Online Resume hosted on GitHub Pages</p>
+        </footer>
+    </div>
+
+</body>
+</html>
